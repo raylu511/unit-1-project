@@ -4,9 +4,6 @@
 }
 
 .container {
-    margin:auto;
-    position: absolute;
-    width: 20px;
     height: 765px;
     background-color: grey;
     
