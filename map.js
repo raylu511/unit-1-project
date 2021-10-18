@@ -14,7 +14,8 @@ function successLocation(position) {
 
 //Unsuccessfully grabbed location
 function errorLocation(){
-    console.log('Yo')
+    createMap([-73.98226828502561, 40.6284116173809]);
+    
 }
 
 //Creates map with grabbed location

@@ -6,3 +6,28 @@
 main{
     margin-top:25%;
 }
+
+@media only screen and (min-width:768px){
+    main{
+        margin-top:18%;
+    }
+}
+@media only screen and (min-width:992px){
+    main{
+        margin-top:12%;
+    }
+    #map{
+       width:70%;
+       height:290px;
+    }
+}
+@media only screen and (min-width:1200px){
+    main{
+        margin-top:8%;
+    }
+    #map{
+       width:60%;
+       height:350px;
+    }
+}
+
