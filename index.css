@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Prata;
+}
+
+/* Note for Ray: Navbar should be background: #FEDAA3 and links should be centered;  */
+
+.title {
+padding-top: 5vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 25%;
+    
+}
+
+
+
+body{
+height: 100%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 25%;
+
+}
+main {
+margin-top: 10vh;
+background: linear-gradient(#FA3838, #FEE1E0);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 25%;
+}
+
+footer {
+margin-top: 10vh;
+height: 10vh;
+width: 100%;
+background-color: #FEDAA3;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 1;
+}
+
+.title {
+font-family: Princess Sofia;
+font-size: 72px;
+color: white;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 25%;
+align-items: flex-start;
+justify-content: space-around;
+}
+
+.pets {
+margin: 10px;
+text-align: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1fr 1fr 1fr;
+align-items: flex-start;
+justify-content: space-evenly;
+}
+
+
+
+.child1 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.child2 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1fr 1fr
+}
+
+.child3 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1fr 1fr 1fr;
+}
+
+.title2 {
+font-size: 32px;
+color: "lavender";
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 25%;
+    
+}
+
+.description {
+margin-top: 5vh;
+font-size: 20px;
+padding-left: 25vh;
+padding-right: 25vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1 1 25%;
+align-items: flex-start;
+justify-content: space-around;
+}
+
