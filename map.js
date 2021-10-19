@@ -7,7 +7,6 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicmF5bHU1MTEiLCJhIjoiY2t1d3ViNGw3Nm1kMDJxcTZrZ
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {enableHighAccuracy: true});
 
 
-
 // Successfully grabbed location
 function successLocation(position) {
     createMap([position.coords.longitude, position.coords.latitude]);
@@ -25,28 +24,47 @@ function createMap(location) {
     container: 'map',                                   // Renders on #map
     style: 'mapbox://styles/mapbox/streets-v11',        // Style of Map
     center: location,                                   // Coordinates
-    zoom: 10                                            // Starting zoom level                     
+    zoom: 12.15                                            // Starting zoom level                     
     });
     
     //Adds zoom controls
     const control = new mapboxgl.NavigationControl();
     map.addControl(control);
+    
+    
     map.on('load', () => {
-        /* Add the data to your map as a layer */
-        map.addLayer({
-            id: 'locations',
-            type: 'circle',
-            /* Add a GeoJSON source containing place coordinates and information. */
-            source: {
+    
+        //Loads paw image 
+        map.loadImage(
+        'pawhouse.png',
+        (error, image) => {
+            
+            // Adds paw image to map.
+            map.addImage('paw', image);
+             
+            // Adds adoption clinics 
+            map.addSource('sourceData', {
             type: 'geojson',
-            data: stores
+            data: clinics
+            });
+             
+            // Add a layer to use the image to represent the data.
+            map.addLayer({
+                'id': 'points',
+                'type': 'symbol',
+                'source': 'sourceData', // reference the data source
+                'layout': {
+                'icon-image': 'paw', // reference the image
+                'icon-size': 0.06 }
+                });
             }
-        });
+        );
     });
 }
+
  
 // Some random data
-const stores = {
+const clinics = {
   "type": "FeatureCollection",
   "features": [
       {
@@ -54,8 +72,8 @@ const stores = {
   "geometry": {
     "type": "Point",
     "coordinates": [
-     -73.96611862386548,
-     40.69394241671732 
+     -73.99207625490061,
+     40.68598375083849
     ]
   },
   "properties": {
@@ -93,7 +111,7 @@ const stores = {
 };
 
 /* Assign a unique ID to each store */
-stores.features.forEach(function (store, i) {
-  store.properties.id = i;
+clinics.features.forEach(function (clinics, i) {
+  clinics.properties.id = i;
 });
 
