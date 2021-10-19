@@ -114,3 +114,11 @@ align-items: flex-start;
 justify-content: space-around;
 }
 
+footer ul {
+    margin: 10vh;
+    display: flex;
+ flex-direction: row;
+ flex: 1fr 1fr 1fr;
+ align-items: space around;
+}
+
