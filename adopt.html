@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Find A Clinic</title>
+        <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
         <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
         <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
         <link rel="stylesheet" href="adopt.css" type="text/css" />
@@ -36,13 +38,38 @@
                 </div>
             </nav>
         </header>
-        <br>
-        <br>
-        <br>
-        <br>
+        
+        <!--MAP-->
         <main class="container-fluid">
+            <h1 class="my-4 text-center display-3">Find A Clinic</h1>
             <div id='map' class="mx-auto"></div>
         </main>
+        
+        <!--Contact Us-->
+        <form class="container mt-5">
+            <h3 class="display-5 text-center">Contact Us</h3>
+            <div class="row">
+                <div class="col-6">
+                    <label class="form-label" for="fname">Full Name</label>
+                    <input class="form-control" type="text" name="fname" id='fname' required/>
+                </div>
+                <div class="col-6">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" type="email" name="email" id='email' required/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <label for="questions" class="form-label">Questions?</label>
+                    <textarea class="form-control" id="questions" name="questions" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-auto mx-auto">
+                    <button type="button" class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+        </form>
 
         <script type="text/javascript" src="map.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
