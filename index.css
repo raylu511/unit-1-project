@@ -17,19 +17,13 @@ flex: 1 1 25%;
 }
 
 body{
-height: 100%;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-flex: 1 1 25%;
 background: linear-gradient(#FA3838, #FEE1E0);
 }
 
 main {
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 margin-top: 10vh;
-
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -37,19 +31,21 @@ flex: 1 1 1;
 }
 
 .shelter {
+margin-top: 25vh;
+width: 100%;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 flex: 1 1 1;
-
 }
 
 .title {
-    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+width: 100%;
+text-decoration: underline 0.15em rgba(0, 0, 0, 0);
 text-underline-offset: 0.4em;
 text-decoration-style: wavy;
 color: white;
-margin-top: 5vh;
+margin-top: 10vh;
 font-family: Princess Sofia;
 font-size: 5em;
 display: flex;
@@ -73,7 +69,7 @@ text-decoration-style: wavy;
 
 
 .pets {
-margin: 5vh;
+width: 100%;
 text-align: center;
 display: flex;
 flex-direction: row;
@@ -113,11 +109,11 @@ text-decoration-style: wavy;
 .title2 {
 color: #68154C;
 text-align: center;
-margin: 0 auto;
+margin:0 auto;
 text-decoration: underline 0.15em rgba(0, 0, 0, 0);
 transition: text-decoration-color 300ms;
 text-decoration-style: wavy;
-font-size: 4em;
+font-size: 2em;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -132,7 +128,8 @@ text-decoration-color: rgba(255,255,255, 0.9);
 
 .title3 {
 text-align: center;
-margin: 0 auto;
+margin:0 auto;
+margin-bottom: 25vh;
 text-decoration: underline 0.15em rgba(0, 0, 0, 0);
 text-underline-offset: 0.3em;
 text-decoration-style: wavy;
@@ -146,18 +143,20 @@ flex: 1 1 1;
     
 }
 
-.description {
-margin: 12vh;
+.description, .description2 {
+margin:0 auto;
+justify-content: center;
+margin-top: 25vh;
 font-size: 2em;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 flex-wrap: wrap;
 flex: 1 1 1;
+
 }
 
-ol {
-    list-style-type: none;
-}
+
+
 
 h1:hover {
 text-decoration-color: rgba(255,255,255, 0.9); 
@@ -172,16 +171,6 @@ h1 {
     font-size: 2em;
     font-family: Prata;
     text-align: center;
-}
-.description2 {
-  
-margin: 16vh;
-font-size: 2em;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-flex: 1 1 1;
-
 }
 
 
