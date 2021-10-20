@@ -10,15 +10,20 @@ text-decoration-color: rgba(255,255,255, 0.9);
 text-decoration-style: wavy;
 }
 
-
-
-
+body{
+height: 100%;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 25%;
+background: linear-gradient(#FA3838, #FEE1E0);
+}
 
 main {
     height: 100%;
     width: 100%;
 margin-top: 10vh;
-background: linear-gradient(#FA3838, #FEE1E0);
+
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -60,9 +65,6 @@ transition: text-decoration-color 300ms;
 text-decoration-style: wavy;
 }
 
-.child1 > img:hover {
-
-}
 
 .pets {
 margin: 5vh;
