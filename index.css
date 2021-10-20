@@ -4,10 +4,16 @@
 }
 
 /* Note for Ray: Navbar should be background: #FEDAA3 and links should be centered;  */
-
-.title:hover {
-text-decoration-color: rgba(255,255,255, 0.9); 
-text-decoration-style: wavy;
+.navbar,.footer{
+     background-color: #FEDAA3;
+}
+.title {
+padding-top: 5vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1 1 25%;
+    
 }
 
 body{
