@@ -24,11 +24,11 @@ display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 flex: 1 1 25%;
-
+background: linear-gradient(#FA3838, #FEE1E0);
 }
 main {
 margin-top: 10vh;
-background: linear-gradient(#FA3838, #FEE1E0);
+
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
