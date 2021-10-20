@@ -7,13 +7,32 @@
 .navbar,.footer{
      background-color: #FEDAA3;
 }
+
+
+.title:hover {
+text-decoration-color: rgba(255, 255, 255, 0.9);    
+text-decoration-style: wavy;
+}
+
 .title {
-padding-top: 5vh;
+text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+transition: text-decoration-color 300ms;
+text-underline-offset: 0.4em;
+text-decoration-style: wavy;
+width: 100%;
+
+
+
+color: white;
+margin-top: 10vh;
+font-family: Princess Sofia;
+font-size: 5em;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-flex: 1 1 25%;
-    
+flex: 1 1 1;
+align-items: flex-start;
+justify-content: space-around;
 }
 
 body{
@@ -39,34 +58,24 @@ flex-wrap: wrap;
 flex: 1 1 1;
 }
 
-.title {
-width: 100%;
-text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-text-underline-offset: 0.4em;
-text-decoration-style: wavy;
-color: white;
-margin-top: 10vh;
-font-family: Princess Sofia;
-font-size: 5em;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-flex: 1 1 1;
-align-items: flex-start;
-justify-content: space-around;
-}
-
 .child1:hover, .child2:hover, .child3:hover{
 text-decoration-color: rgba(255,255,255, 0.9); 
 text-underline-offset: 0.3em;
 }
 
+
 .child1, .child2, .child3{
 text-decoration: underline 0.15em rgba(0, 0, 0, 0);
 transition: text-decoration-color 300ms;
+text-underline-offset: 0.3em;
 text-decoration-style: wavy;
 }
 
+.description span {
+text-decoration: underline 0.15em rgba(255, 255, 255, 0.9);
+text-decoration-style: wavy;
+    
+}
 
 .pets {
 width: 100%;
@@ -128,14 +137,13 @@ text-decoration-color: rgba(255,255,255, 0.9);
 
 .title3 {
 text-align: center;
-margin:0 auto;
+margin: 0 auto;
 margin-bottom: 25vh;
 text-decoration: underline 0.15em rgba(0, 0, 0, 0);
 text-underline-offset: 0.3em;
 text-decoration-style: wavy;
 transition: text-decoration-color 300ms;
 font-size: 4em;
-color: "lavender";
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
@@ -144,8 +152,8 @@ flex: 1 1 1;
 }
 
 .description, .description2 {
-margin:0 auto;
-justify-content: center;
+
+margin: 10vh;
 margin-top: 25vh;
 font-size: 2em;
 display: flex;
