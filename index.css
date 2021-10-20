@@ -6,7 +6,9 @@
 }
 
 /* Note for Ray: Navbar should be background: #FEDAA3 and links should be centered;  */
-
+nav{
+     background-color: #FEDAA3;
+}
 .title {
 padding-top: 5vh;
 display: flex;
