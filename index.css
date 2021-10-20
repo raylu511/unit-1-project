@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
     font-family: Prata;
 }
 
@@ -18,8 +16,6 @@ flex: 1 1 25%;
     
 }
 
-
-
 body{
 height: 100%;
 display: flex;
@@ -28,6 +24,7 @@ flex-wrap: wrap;
 flex: 1 1 25%;
 background: linear-gradient(#FA3838, #FEE1E0);
 }
+
 main {
     height: 100%;
     width: 100%;
@@ -36,24 +33,47 @@ margin-top: 10vh;
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-flex: 1 1 25%;
+flex: 1 1 1;
 }
 
+.shelter {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 1;
+
+}
 
 .title {
-font-family: Princess Sofia;
-font-size: 72px;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+text-underline-offset: 0.4em;
+text-decoration-style: wavy;
 color: white;
+margin-top: 5vh;
+font-family: Princess Sofia;
+font-size: 5em;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-flex: 1 1 25%;
+flex: 1 1 1;
 align-items: flex-start;
 justify-content: space-around;
 }
 
+.child1:hover, .child2:hover, .child3:hover{
+text-decoration-color: rgba(255,255,255, 0.9); 
+text-underline-offset: 0.3em;
+}
+
+.child1, .child2, .child3{
+text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+transition: text-decoration-color 300ms;
+text-decoration-style: wavy;
+}
+
+
 .pets {
-margin: 10px;
+margin: 5vh;
 text-align: center;
 display: flex;
 flex-direction: row;
@@ -64,12 +84,14 @@ justify-content: space-evenly;
 }
 
 .child1 {
+font-size: 2em;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 }
 
 .child2 {
+font-size: 2em;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -77,14 +99,45 @@ flex: 1fr 1fr 1fr;
 }
 
 .child3 {
+font-size: 2em;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 flex: 1fr 1fr 1fr;
 }
 
+.title2:hover {
+text-decoration-color: rgba(255,255,255, 0.9); 
+text-decoration-style: wavy;
+}
 .title2 {
-font-size: 32px;
+color: #68154C;
+text-align: center;
+margin: 0 auto;
+text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+transition: text-decoration-color 300ms;
+text-decoration-style: wavy;
+font-size: 4em;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex: 1 1 1;
+    
+}
+
+.title3:hover {
+text-decoration-color: rgba(255,255,255, 0.9); 
+
+}
+
+.title3 {
+text-align: center;
+margin: 0 auto;
+text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+text-underline-offset: 0.3em;
+text-decoration-style: wavy;
+transition: text-decoration-color 300ms;
+font-size: 4em;
 color: "lavender";
 display: flex;
 flex-direction: column;
@@ -94,16 +147,43 @@ flex: 1 1 1;
 }
 
 .description {
-margin-top: 5vh;
-font-size: 20px;
-margin: 0 auto;
+margin: 12vh;
+font-size: 2em;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 flex: 1 1 1;
-align-items: flex-start;
-justify-content: space-around;
 }
+
+ol {
+    list-style-type: none;
+}
+
+h1:hover {
+text-decoration-color: rgba(255,255,255, 0.9); 
+text-decoration-style: wavy;
+}
+
+h1 {
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    text-underline-offset: 0.3em;
+    text-decoration-style: wavy;
+    transition: text-decoration-color 300ms;
+    font-size: 2em;
+    font-family: Prata;
+    text-align: center;
+}
+.description2 {
+  
+margin: 16vh;
+font-size: 2em;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1 1 1;
+
+}
+
 
 
 

@@ -4,9 +4,9 @@ body{
 .title{
     font-family: Princess Sofia;
 }
-nav{
-     background-color: #FEDAA3;
-}
+.navbar{
+background-color: #FEDAA3;
+    
 }
 #map{
    width:100%;
@@ -39,9 +39,8 @@ main{
     main{
         margin-top:8%;
     }
-    /*#map{*/
-    /*   width:60%;*/
-    /*   height:350px;*/
-    /*}*/
+    #map{
+       width:60%;
+       height:350px;
+    }
 }
-

@@ -1,14 +1,18 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
+<<<<<<< HEAD
 nav{
      background-color: #FEDAA3;
 }
 b:hover {
   background-color: yellow;
+=======
+
+body{
+    background: linear-gradient(#FA3838, #FEE1E0);
+>>>>>>> 255641f0890b350c5cfce07664adba9b9c9cbd4a
 }
+
 
 header {
     position: sticky;
@@ -18,7 +22,7 @@ header {
 }
 
 .motto {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
     text-align: center;
 }
 
@@ -26,9 +30,11 @@ header {
 
 
 .bigbox{
+    margin-top: 50px;
     display:flex;
     width:600px;
     margin:auto;
+      margin-bottom: 100px;
     height:300px;
 }
 
@@ -72,10 +78,16 @@ height:100%;
 }
 
 .vid {
+
       border: 5px solid black;
-    width: 300px;
+    width: 500px;
     margin:auto;
     height: 300px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
 .bigbox3 {
     border: 2px red solid;
@@ -107,17 +119,40 @@ height:100%;
     }
 }
 
+@media all and (max-width: 1200px){
+    .bigbox2{
+        border:2px solid purple;
+    height: 350px;
+    width: 100%;
+    }
 
 @media all and (max-width: 1000px){
     .bigbox2{
         border:2px solid green;
-    height: 500px;
+    height: 300px;
     width: 100%;
     }
 }
+
+@media all and (max-width: 1000px){
+    .vid{
+ 
+    height: 300px;
+    width: 100%;
+    }
+}
+
+@media all and (max-width: 700px){
+    .bigbox2{
+        border:2px solid green;
+    height: 400px;
+    width: 100%;
+    }
+}
+
 @media all and (max-width: 1000px){
     .lilbox2{
-        border:1px solid red;
+
       width: 100%;
       height: 500px;
     }
