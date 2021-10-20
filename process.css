@@ -1,6 +1,15 @@
 * {
         font-family: Prata;
         font-size: 20px;
+}
+body{
+    background: linear-gradient(#FA3838, #FEE1E0);
+}
+.navbar,.footer{
+     background-color: #FEDAA3;
+}
+b:hover {
+  background-color: yellow;
         
 }
 
@@ -84,7 +93,6 @@ iframe {
     height: 100%;
 }
 .bigbox3 {
-    border:2px solid black;
     display: block;
     width: 70%;
     margin: auto;
@@ -128,7 +136,6 @@ iframe {
 
 @media all and (max-width: 700px){
     .bigbox2{
-    border:1px red solid;
     height: 550px;
     width: 100%;
     }
