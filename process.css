@@ -2,6 +2,9 @@
         font-family: Prata;
         font-size: 20px;
 }
+body{
+    background: linear-gradient(#FA3838, #FEE1E0);
+}
 .navbar,.footer{
      background-color: #FEDAA3;
 }
