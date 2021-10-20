@@ -10,7 +10,7 @@
 .title {
 padding-top: 5vh;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 flex-wrap: wrap;
 flex: 1 1 25%;
     
@@ -18,15 +18,10 @@ flex: 1 1 25%;
 
 
 
-body{
-height: 100%;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-flex: 1 1 25%;
 
-}
 main {
+    height: 100%;
+    width: 100%;
 margin-top: 10vh;
 background: linear-gradient(#FA3838, #FEE1E0);
 display: flex;
@@ -35,23 +30,13 @@ flex-wrap: wrap;
 flex: 1 1 25%;
 }
 
-footer {
-margin-top: 10vh;
-height: 10vh;
-width: 100%;
-background-color: #FEDAA3;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-flex: 1 1 1;
-}
 
 .title {
 font-family: Princess Sofia;
 font-size: 72px;
 color: white;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 flex-wrap: wrap;
 flex: 1 1 25%;
 align-items: flex-start;
@@ -69,8 +54,6 @@ align-items: flex-start;
 justify-content: space-evenly;
 }
 
-
-
 .child1 {
 display: flex;
 flex-direction: row;
@@ -81,7 +64,7 @@ flex-wrap: wrap;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-flex: 1fr 1fr
+flex: 1fr 1fr 1fr;
 }
 
 .child3 {
@@ -97,28 +80,64 @@ color: "lavender";
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
-flex: 1 1 25%;
+flex: 1 1 1;
     
 }
 
 .description {
 margin-top: 5vh;
 font-size: 20px;
-padding-left: 25vh;
-padding-right: 25vh;
+margin: 0 auto;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-flex: 1 1 25%;
+flex: 1 1 1;
 align-items: flex-start;
 justify-content: space-around;
 }
 
-footer ul {
-    margin: 10vh;
-    display: flex;
- flex-direction: row;
- flex: 1fr 1fr 1fr;
- align-items: space around;
+
+footer {
+width: 100%;
+height: 10vh;
+background-color: purple;
+display: flex;
+flex: 1 1 1;
+flex-rection: column;
 }
 
+.fcontent {
+
+display: flex;
+align-items: flex-end;
+justify-content: space-evenly;
+flex-direction: row;
+flex-wrap: wrap;
+flex: 1 1 1;
+}
+
+
+
+.f1 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.f2 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.f3 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.f4 {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
