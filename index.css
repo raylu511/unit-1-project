@@ -4,7 +4,7 @@
 }
 
 /* Note for Ray: Navbar should be background: #FEDAA3 and links should be centered;  */
-.navbar{
+.navbar,.footer{
      background-color: #FEDAA3;
 }
 .title {
