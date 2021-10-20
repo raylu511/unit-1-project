@@ -1,18 +1,7 @@
 * {
         font-family: Prata;
         font-size: 20px;
-}
-<<<<<<< HEAD
-nav{
-     background-color: #FEDAA3;
-}
-b:hover {
-  background-color: yellow;
-=======
-
-body{
-    background: linear-gradient(#FA3838, #FEE1E0);
->>>>>>> 255641f0890b350c5cfce07664adba9b9c9cbd4a
+        
 }
 
 
@@ -29,7 +18,9 @@ header {
     
 }
 
-
+body {
+    background: linear-gradient(#FA3838, #FEE1E0);
+}
 
 
 .bigbox{
