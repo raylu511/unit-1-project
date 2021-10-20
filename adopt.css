@@ -3,7 +3,10 @@ body{
 }
 .title{
     font-family: Princess Sofia;
-
+}
+.navbar{
+background-color: #FEDAA3;
+    
 }
 #map{
    width:100%;
@@ -41,4 +44,3 @@ main{
        height:350px;
     }
 }
-
