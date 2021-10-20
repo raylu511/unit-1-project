@@ -104,47 +104,4 @@ justify-content: space-around;
 }
 
 
-footer {
-width: 100%;
-height: 10vh;
-background-color: purple;
-display: flex;
-flex: 1 1 1;
-flex-rection: column;
-}
 
-.fcontent {
-
-display: flex;
-align-items: flex-end;
-justify-content: space-evenly;
-flex-direction: row;
-flex-wrap: wrap;
-flex: 1 1 1;
-}
-
-
-
-.f1 {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-}
-
-.f2 {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-}
-
-.f3 {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-}
-
-.f4 {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-}
