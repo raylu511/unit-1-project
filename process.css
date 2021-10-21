@@ -1,6 +1,9 @@
 * {
-        font-family: Prata;
         font-size: 20px;
+        
+}
+main{
+    margin-top:%;
 }
 body{
     background: linear-gradient(#FA3838, #FEE1E0);
@@ -12,7 +15,51 @@ b:hover {
   background-color: yellow;
         
 }
+#heading {
+    z-index: 10000!important;
+}
 
+#carouselExampleControls{
+    z-index: 0!important;
+}
+
+.slides{
+    height: 350px;
+    width: 500px;
+justify-content: center;
+margin: auto;
+position: stat;
+}
+
+#cloud{ 
+   width:450px;
+   height:200px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:30px;
+}
+
+#cloud2{ 
+   width:100%;
+   height:380px;
+   background:#ECEFF1;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:30px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+ 
+  width: 250px;
+  height: 250px;  
+}
+
+#rcorners3 {
+  border-radius: 25px;
+ 
+  width: 300px;
+  height: 300px;  
+}
 
 header {
     position: sticky;
@@ -24,7 +71,6 @@ header {
 .motto {
   margin-bottom: 100px;
     text-align: center;
-    
 }
 
 body {
@@ -35,19 +81,14 @@ body {
 .bigbox{
     margin-top: 50px;
     display:flex;
-    width:600px;
-    margin:auto;
+    justify-content: space-evenly;
       margin-bottom: 100px;
-    height:300px;
+   
 }
 
-.lil-box {
-    width:50%;
-    height:100%;
-}
 
 .img-box{
-    width:50%;
+    width:300px;
     height:100%;
 }
 
@@ -58,22 +99,37 @@ body {
 
 .bigbox2 {
     width: 100%;
-    height: 300px;
+    height: 500px;
     margin: auto;
     display:flex;
+    justify-content: space-evenly;
     margin-bottom: 100px;
 }
 .img-box2 img{
-    width:100%;
+    width:300px;
     height:100%;
 }
 
 .img-box2{
-    width:20%;
+    width:300px;
     height:100%;
 }
+
+.lil-box {
+    border:2px solid blue;
+    padding: 10px;
+    width:300px;
+    height:100%;
+}
+
+.text{
+        padding: 10px;
+        border:2px red solid;
+        text-align: center;
+        justify-content:center;
+}
 .lilbox2 {
-width:60%;
+width: 800px;
 height:100%;
 }
 
@@ -99,68 +155,84 @@ iframe {
     height: 500px;
 }
 
+.middle {
+    margin:auto;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
 
 
 
 
-@media all and (max-width: 700px){
-    .bigbox{
-        width: 400px;
+
+
+
+
+@media all and (max-width: 1500px){
+    #cloud2 {
+    height: 400px;
     }
 }
 
-@media all and (max-width: 1000px){
+@media all and (max-width: 1350px){
+    .bigbox2{
+    height: 450px;
+    width: 100%;
+    }
+}
+
+@media all and (max-width: 1300px){
+    #cloud2 {
+    height: 500px;
+    }
+
     .img {
-        display:none;
+    display:none;
     }
-}
-
-@media all and (max-width: 1000px){
-    .logo1{
-      display: none;
+    .lilbox2{
+    width: 100%;
+    height: 700px;
     }
 }
 
 @media all and (max-width: 1200px){
-    .bigbox2{
-    height: 350px;
-    width: 100%;
-    }}
+    #cloud2 {
+    height: 430px;
+    }
+    .logo1{
+    display: none;
+    }
+}
+
+
 
 @media all and (max-width: 1000px){
     .bigbox2{
+    height: 550px;
+    width: 100%;
+    }
+    .vid{
+    
     height: 300px;
     width: 100%;
+    }
+    .img-box2{
+    width: 0%;
+    }
+    .bigbox3{
+    width: 100%;
+    height: 800px;
     }
 }
 
 @media all and (max-width: 700px){
     .bigbox2{
+    height: 400px;
+    width: 100%;
+    }
+    #cloud2 {
     height: 550px;
-    width: 100%;
-    }
-}
-
-@media all and (max-width: 1000px){
-    .vid{
- 
-    height: 300px;
-    width: 100%;
-    }
-}
-
-
-@media all and (max-width: 1000px){
-    .lilbox2{
-
-      width: 100%;
-      height: 500px;
-    }
-}
-
-@media all and (max-width: 1000px){
-    .img-box2{
-      width: 0%;
     }
 }
 
@@ -168,9 +240,35 @@ iframe {
 
 
 
-@media all and (max-width: 1000px){
+
+@media all and (max-width: 700px){
+    #rcorners2{
+        width:80%;
+        height:30%;
+    }
+    #cloud {
+ border:2px solid green;
+ width: 50%;
+ height: 20%;
+    }
+    .lil-box{
+       font-size: 12px;
+    }
+    #cloud2 {
+         border:2px solid green;
+ width: 100%;
+ height: 50%;
+font-size: 12px;
+    }
     .bigbox3{
-      width: 100%;
-      height: 800px;
+        padding:20px;
+    }
+    ul, li, strong {
+        font-size: 12px;
+    }
+    .slides {
+    height: 200px;
+    width: 300px;
     }
 }
+
