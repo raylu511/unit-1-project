@@ -20,6 +20,8 @@
         <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet" media="all">
     </head>
     <body>
+        
+        <!--Navbar-->
         <header class="container-fluid">
             <nav class="navbar navbar-expand-md navbar-light fixed-top ">
                 <a href="#" class="navbar-brand">
@@ -49,7 +51,14 @@
         <!--MAP-->
         <main class="container-fluid">
             <h1 class="my-4 text-center title">Find A Friend</h1>
-            <div id='map' class="mx-auto"></div>
+            <div class="row">
+                <div class="col adoption-list">
+                    <h1 class="display-5 text-center">Locations</h1>
+                </div>
+                <div class="col">
+                    <div id='map' class="mx-auto border border-dark"></div>
+                </div>
+            </div>
         </main>
         
         <!--Contact Us-->
@@ -79,7 +88,7 @@
         </form>
         
         <!--Footer-->
-        <footer class="container text-dark mt-5 footer">
+        <footer class="container-fluid text-dark mt-5 footer">
             <div class="row">
                 <div class="col d-flex justify-content-end">
                     <a href="#" class="p-2 text-dark">Privacy</a>
