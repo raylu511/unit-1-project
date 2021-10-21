@@ -32,3 +32,5 @@ const popup = new mapboxgl.Popup({ offset: [0, -15] })
   //Adds zoom controls
     const control = new mapboxgl.NavigationControl();
     map.addControl(control);
+
+
