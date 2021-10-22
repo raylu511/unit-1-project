@@ -4,9 +4,7 @@ body,header{
 .bold{
  font-weight:700;   
 }
-body{
-    font-size:10px;
-}
+
 .img-box img{
     width:100%;
     height:100%;
@@ -17,8 +15,10 @@ body{
 .adopt *{
     border:none;
 }
-
-
+.orange{
+    color:orange;
+    font-weight:500;
+}
 /*Main Content*/
 .main-content{
     margin-top:25%;
@@ -37,19 +37,35 @@ body{
     background-color:#f65f11;
     color:white;
 }
+
+
 @media only screen and (min-width:576px){
     .main-content p, .main-content h1{
     font-size:1.8rem;
     }
+    .main-content{
+    margin-top:20%;
+}
 }
 @media only screen and (min-width:768px){
     .main-content .slide_show{
     display:block;
+    }
+    .card img{
+        width:50%;
     }
     .slide_show span{
         background-color:white;
     }
     .img-box{
         height:400px;
+    }
+    .main-content{
+    margin-top:18%;
+}
+}
+@media only screen and (min-width:996px){
+    .main-content{
+        margin-top:15%;
     }
 }
