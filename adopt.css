@@ -17,9 +17,7 @@ main{
     margin-top:25%;
 }
 
-.adoption-list{
-    display:none;
-}
+
 
 @media only screen and (min-width:768px){
     main{
