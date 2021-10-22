@@ -6,9 +6,7 @@
 main{
     background-color: #FFFFFF;
 }
-.navbar{
-     background-color: #fff8f5;
-}
+
 footer{
     background-color:black;
 }
@@ -80,11 +78,8 @@ b:hover {
     height: 300px;  
 }
 
-header {
-    position: sticky;
-    min-height: 60px;
-
-    background-color: #eee;
+header{
+     background-color: #fff8f5;
 }
 
 .motto {
