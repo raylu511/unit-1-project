@@ -1,0 +1,8 @@
+*{border-box: border}
+.navbar,.footer{
+     background-color: #FEDAA3;
+}
+
+body {
+margin-top: 10vh;
+}
