@@ -61,9 +61,10 @@ main{
     padding-top:15%;
 }
 .sites .img-box{
-    height:90px;
-    width:80%;
-    
+    height:120px;
+}
+.sites .img-box>img{
+    height:100%;
 }
 
 /*Media Queries*/
@@ -91,9 +92,7 @@ main{
     .main-content .slide_show{
     display:block;
     }
-    .card img{
-        width:50%;
-    }
+    
     .slide_show span{
         background-color:white;
     }
@@ -108,6 +107,9 @@ main{
     .main-content{
         padding-top:15%;
     }
+    .sites .card-body *{
+        line-height: 2;
+    }
 }
 
 @media only screen and (min-width:1400px){
@@ -117,5 +119,5 @@ main{
     .sites{
     padding-top:8%;
     padding-bottom:8%;
-}
+    }
 }
