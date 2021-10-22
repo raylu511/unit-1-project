@@ -6,8 +6,14 @@
 main{
     background-color: #FFF8F5;
 }
-.navbar,.footer{
-     background-color: #FEDAA3;
+.navbar{
+     background-color: #fff8f5;
+}
+footer{
+    background-color:black;
+}
+footer *{
+    color:white;
 }
 b:hover {
   background-color: yellow;
