@@ -53,8 +53,9 @@ main{
 .adopt .img-box{
     height:300px;
 }
-
-
+.adopt .card-body>*{
+    line-height: 2.2;
+}
 /*Sites*/
 .sites{
     padding-top:15%;
@@ -65,14 +66,27 @@ main{
     
 }
 
+/*Media Queries*/
 @media only screen and (min-width:576px){
+    
     .main-content p, .main-content h1{
     font-size:1.8rem;
     }
+    
     .main-content{
     padding-top:20%;
+    }
+    
+    /*Process*/
+    .adopt .img-box{
+        height:350px;
+    }
+    
 }
-}
+
+
+
+
 @media only screen and (min-width:768px){
     .main-content .slide_show{
     display:block;
@@ -90,8 +104,18 @@ main{
     padding-top:18%;
 }
 }
-@media only screen and (min-width:996px){
+@media only screen and (min-width:992px){
     .main-content{
-        margin-top:15%;
+        padding-top:15%;
     }
+}
+
+@media only screen and (min-width:1400px){
+    .main-content{
+        padding-top:10%;
+    }
+    .sites{
+    padding-top:8%;
+    padding-bottom:8%;
+}
 }
