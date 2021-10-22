@@ -49,54 +49,71 @@
                 </div>
             </nav>
         </header>   
-        
-        <!--MAP-->
-        <main class="container-fluid container-lg">
-            <h1 class="my-4 text-center title animate__animated animate__backInDown">Find A Friend</h1>
-            <div class="row">
-                <div class="col">
-                    <div id='map' class="mx-auto border border-dark"></div>
+
+
+         <!--MAP-->
+        <main class="container-fluid ">
+            <div class="container-fluid container-lg">
+                <h1 class="my-4 text-center orange animate__animated animate__backInDown">Find A Friend</h1>
+                <div class="row">
+                    <div class="col">
+                        <div id='map' class="mx-auto border border-dark"></div>
+                    </div>
                 </div>
             </div>
         </main>
-        <div class="container mt-4">
-            <h1 class="display-5 text-center mb-5 title">Locations</h1>
-            <div class="row">
-                <div class="col col-lg-6 adoption-list mx-auto">
-                    <table class="table ">
-                        <thead>
-                            <tr>
-                                
-                                <th class="col">Name</th>
-                                <th class="col">Address</th>
-                                <th class="col">Number</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                
-                                <td>Pet Smart</td>
-                                <td>238 Atlantic Ave Brooklyn,NY 11201</td>
-                                <td>(718) 852-2519</td>
-                            </tr>
-                            <tr>
-                                
-                                <td>Monster Mutt Doggie</td>
-                                <td>297 Warren St Brooklyn, NY 11201</td>
-                                <td>(718) 858-9028</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        
+        
+        <!--Locations-->
+        <div class="container-fluid sites">
+            <div class="container">
+                <div class="row text-center">
+                    <h5 class='orange animate__animated animate__fadeInDown bold'>Adoption Sites</h1>
+                    <h4 class="blue animate__animated animate__fadeInDown bold">Some locations in the area</h4>
+                </div>
+                <div class="row pt-4 gy-5 justify-content-center" id="cards">
+                    <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                        <div class="card border-light" style="">
+                            <div class="img-box mx-4">
+                                <img src="./images/petsmart.jpg" class="card-img-top " alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title orange">Pet Smart</h5>
+                                <p class="card-text">238 Atlantic Ave Brooklyn, NY 11201</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                        <div class="card border-light">
+                            <div class="img-box mx-4 ">
+                                <img src="./images/foranimals.png" class="card-img-top" alt="">
+                            </div>
+                            
+                            <div class="card-body text-center">
+                                <h5 class="card-title orange ">For Animals Inc.</h5>
+                                <p class="card-text">218 5th Ave, Brooklyn, NY 11215</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-8  col-md-6 col-lg-4">
+                        <div class="card border-light" style="">
+                            <div class="img-box mx-4">
+                                <img src="./images/animalrescue.png" class="card-img-top img-fluid" alt="">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title orange">Sean Casey Animal Rescue</h5>
+                                <p class="card-text">153 E 3rd St, Brooklyn, NY 11218</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         
         
-        
-        
         <!--Contact Us-->
         <form class="container mt-5" id="form">
-            <h3 class="display-5 text-center title">Contact Us</h3>
+            <h3 class="display-5 text-center blue">Contact Us</h3>
             <div class="row">
                 <div class="col-6">
                     <label class="form-label" for="fname">Full Name</label>
@@ -114,8 +131,8 @@
                 </div>
             </div>
             <div class="row mt-2">
-                <div class="col-auto mx-auto">
-                    <button type="button" class="btn btn-primary btn-block">Submit</button>
+                <div class="col-auto bg-orange rounded-pill mx-auto">
+                    <a href="" class="btn btn-large text-light">Submit</a>
                 </div>
             </div>
         </form>
@@ -135,6 +152,8 @@
                 </div>
             </div>
         </footer>
+        
+        
         <!--PetFinder API-->
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script>
