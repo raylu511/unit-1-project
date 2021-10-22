@@ -4,11 +4,9 @@
 }
 
 main{
-    background-color: #FFF8F5;
+    background-color: #FFFFFF;
 }
-.navbar{
-     background-color: #fff8f5;
-}
+
 footer{
     background-color:black;
 }
@@ -26,14 +24,18 @@ b:hover {
 #carouselExampleControls{
     z-index: 0!important;
 }
-
+.back {
+    margin-top: 15px;
+        background-color: #FFF8F5 ;
+}
 .slides{
+    background-color: black;
     height: 334px;
     width: 500px;
-justify-content: center;
-margin: auto;
-position: stat;
-border:1px solid black;
+    justify-content: center;
+    margin: auto;
+    position: stat;
+    border:1px solid black;
 }
 
 #cloud{ 
@@ -76,21 +78,19 @@ border:1px solid black;
     height: 300px;  
 }
 
-header {
-    position: sticky;
-    min-height: 60px;
-
-    background-color: #eee;
+header{
+     background-color: #fff8f5;
 }
 
 .motto {
   margin-bottom: 100px;
     text-align: center;
 }
-
-body {
-    background: linear-gradient(#FA3838, #FEE1E0);
+.mot {
+    color: #072366
 }
+
+
 
 
 .bigbox{
@@ -146,10 +146,12 @@ width: 800px;
 height:100%;
 }
 
+h3 {
+        color: #072366;
+}
 .lilbox2 h3{
     text-align: center;
 }
-
 .vid {
     width: 500px;
     margin:auto;
