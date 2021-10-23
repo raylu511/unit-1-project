@@ -32,11 +32,13 @@ main{
 .img-box img{
     height:100%;
 }
-
+#donate{
+   
+}
 
 @media only screen and (min-width:576px){
     .sites{
-        padding-bottom: 10%
+        padding-bottom: 10%;
     }
     #form{
         padding-bottom:10%;
@@ -84,8 +86,15 @@ main{
         padding-top:8%;
         padding-bottom:0%;
     }
+    #cards{
+        margin-top:0%;
+        margin-bottom:11%;
+    }
     #map{
        width:60%;
        height:350px;
+    }
+    .sites{
+         padding-bottom: 0%;
     }
 }

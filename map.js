@@ -6,15 +6,15 @@ mapboxgl.accessToken = "pk.eyJ1IjoicmF5bHU1MTEiLCJhIjoiY2t1d3U1djZqNTRsYzMxdDQ2N
 // Create Map
 const map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/raylu511/ckuzrajq713en14oibc7shtkc', 
-      center: [-73.98535673291238,40.69316364153371],
-      zoom: 12.5
+      style: 'mapbox://styles/raylu511/ckuzodknf10iv14qmhz14tvm1', 
+      center: [-73.97639491735579, 40.664884375492456],
+      zoom: 11.8
     });
     
 map.on('click', (event) => {
 // If the user clicked on one of your markers, get its information.
 const features = map.queryRenderedFeatures(event.point, {
-layers: ['animal-clinics'] // replace with your layer name
+layers: ['nyc-animal-clinics'] // replace with your layer name
 });
 if (!features.length) {
 return;

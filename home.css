@@ -10,12 +10,11 @@
  font-weight:700;   
 }
 
-main{
-    background-color:white;
-}
+
 .blue{
     color:#072366;
 }
+
 .img-box img{
     width:100%;
     height:100%;
@@ -35,9 +34,7 @@ main{
     font-size:1.3rem;
 }
 
-.slide_show span{
-    background-color:white;
-}
+
 .main-content .slide_show{
    display:none;
 }
@@ -93,9 +90,7 @@ main{
     display:block;
     }
     
-    .slide_show span{
-        background-color:white;
-    }
+    
     .main-content .img-box{
         height:400px;
     }
