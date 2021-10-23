@@ -26,14 +26,14 @@ main{
 .sites{
     margin-top:15%;
 }
-.img-box{
+.sites .img-box{
     height:120px;
 }
 .img-box img{
     height:100%;
 }
-#donate{
-   
+.donate .img-box{
+    height:100px;
 }
 
 @media only screen and (min-width:576px){
@@ -98,3 +98,11 @@ main{
          padding-bottom: 0%;
     }
 }
+
+  .btn-circle.btn-sm {
+            width: 75px;
+            height: 75px;
+            border-radius: 15px;
+            font-size: 8px;
+            text-align: center;
+        }
