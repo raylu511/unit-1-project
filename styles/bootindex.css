@@ -59,7 +59,6 @@ font-style: normal;
 
 .cloudcap{ 
   
- 
    background:#8DB38B;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:30px;
@@ -113,24 +112,27 @@ font-size: 1.2rem;
 }
 
 /*Media Queries*/
-@media only screen and (min-width:238px){
-    
-    .mission p, .mission h1{
-    font-size:1.4rem;
-    }
-    
+
+
+
+@media only screen and (min-width:288px){
+  
+ 
     .missiontitle{
-    padding-top:20%;
+      
+    padding-top: 20%;
     }
+    
+    
 }
+
 @media only screen and (min-width:576px){
-    
-    .mission p, .mission h1{
-    font-size:1.4rem;
-    }
+  
+  
     
     .missiontitle{
-    padding-top:20%;
+      
+    padding-top: 10%;
     }
     
     
