@@ -1,22 +1,105 @@
-*{
-    border-box: border}
-    
-    
-.navbar,.footer{
+*{border-box: border;
+    font-family: "DM Sans", sans-serif;
+}
+  
+  .navbar,.footer{
      background-color: #fff8f5;
 }
 
-body {
-    margin-top: 100px;
+.missiontitle{
+      padding-top: 100px;
+    background-color: #fff8f5;
 }
 
-.img-box{
-    height:350px;
-    width:25%;
-    margin:auto;
+.mission {background-color: #fff8f5;}
+
+
+button .comment { display: none;}
+button:hover .replies { display: none;}
+button:hover .comment { display: inline;}
+
+
+
+.btn {
+    background-color: #f65f11;
 }
 
-.img-box img{
-    width:100%;
-    height:100%;
+a:hover, a:visited, a:link, a:active
+{   color: white;
+font-style: normal;
+    text-decoration: none;
+}
+
+
+.blue{
+    color:#072366;
+}
+
+.white{
+    color:white;
+    font-weight:500;
+}
+
+.orange{
+    color:orange;
+    font-weight:500;
+}
+
+.cloudcap{ 
+   width:auto;
+   height:50px;
+   background:#8DB38B;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:30px;
+}
+.cloudtitle{ 
+   width:200px;
+   height:50px;
+   background:#8DB38B;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:30px;
+}
+
+.cloudcatsphoto{
+ 
+       width:300px;
+   height:300px;
+   background:#d2ab99;
+   border-radius:30px;
+    
+}
+
+.cloudcats{
+   height: 300px;
+    width: 20%;
+   background:#d2ab99;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:25px;
+    
+}
+
+
+.bold{
+ font-weight:700;   
+}
+
+.sean{
+    padding-top: 65px;
+}
+.cloud{ 
+font-size: 1.2rem;
+   width:80%;
+   height:300px;
+   background:#8DB38B;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:30px;
+}
+
+.clouddesc{ 
+    font-size: 1.2rem;
+   width:100%;
+   height:300px;
+   background:#8DB38B;
+   box-shadow: 10px 10px rgba(0,0,0,0.2);
+   border-radius:30px;
 }
