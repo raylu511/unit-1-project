@@ -2,12 +2,17 @@
     font-family: "DM Sans", sans-serif;
 }
 
-header{
-     background-color: #fff8f5;
-}  
 
-.missiontitle{
-      padding-top: 100px;
+  
+  .navbar, .footer {
+     background-color: #fff8f5;
+}
+.missioncarousel{
+    
+    background-color: white;
+}
+.missiontitle {
+    
     background-color: #fff8f5;
 }
 
@@ -15,7 +20,7 @@ header{
 
 
 button .comment { display: none;}
-button:hover .replies { display: none;}
+button:hover .name { display: none;}
 button:hover .comment { display: inline;}
 
 
@@ -45,16 +50,18 @@ font-style: normal;
     font-weight:500;
 }
 
+
+
 .cloudcap{ 
-   width:auto;
-   height:50px;
+  
+ 
    background:#8DB38B;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:30px;
 }
 .cloudtitle{ 
-   width:200px;
-   height:50px;
+   
+   margin: 0 auto;
    background:#8DB38B;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:30px;
@@ -62,16 +69,15 @@ font-style: normal;
 
 .cloudcatsphoto{
  
-       width:300px;
-   height:300px;
+ 
    background:#d2ab99;
    border-radius:30px;
     
 }
 
 .cloudcats{
-   height: 300px;
-    width: 20%;
+  
+   
    background:#d2ab99;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:25px;
@@ -83,23 +89,83 @@ font-style: normal;
  font-weight:700;   
 }
 
-.sean{
-    padding-top: 65px;
-}
 .cloud{ 
 font-size: 1.2rem;
-   width:80%;
-   height:300px;
+
    background:#8DB38B;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:30px;
 }
 
 .clouddesc{ 
-    font-size: 1.2rem;
-   width:100%;
-   height:300px;
+    
+    margin: 0 auto;
+    font-size: 1.4rem;
+  opacity: 0.9;
    background:#8DB38B;
    box-shadow: 10px 10px rgba(0,0,0,0.2);
    border-radius:30px;
+}
+
+/*Media Queries*/
+@media only screen and (min-width:238px){
+    
+    .mission p, .mission h1{
+    font-size:1.4rem;
+    }
+    
+    .missiontitle{
+    padding-top:20%;
+    }
+}
+@media only screen and (min-width:576px){
+    
+    .mission p, .mission h1{
+    font-size:1.4rem;
+    }
+    
+    .missiontitle{
+    padding-top:20%;
+    }
+    
+    
+}
+
+
+
+@media only screen and (min-width:768px){
+    .missiontitle .slide_show{
+    display:block;
+    }
+    
+    
+    .missiontitle .img-box{
+        height:400px;
+    }
+    .missiontitle {
+    padding-top:18%;
+    }
+    .footer .col-12 {
+        justify-content:end;
+    }
+}
+
+
+@media only screen and (min-width:992px){
+    .missiontitle{
+        padding-top:15%;
+    }
+    .sites .card-body *{
+        line-height: 2;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    .missiontitle{
+        padding-top:10%;
+    }
+    .site{
+    padding-top:8%;
+    padding-bottom:8%;
+    }
 }
