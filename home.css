@@ -63,7 +63,10 @@
 .sites .img-box>img{
     height:100%;
 }
-
+.footer .col-12 {
+        display:flex;
+        justify-content:center;
+    }
 /*Media Queries*/
 @media only screen and (min-width:576px){
     
@@ -96,6 +99,9 @@
     }
     .main-content{
     padding-top:18%;
+    }
+    .footer .col-12 {
+        justify-content:end;
     }
 }
 
