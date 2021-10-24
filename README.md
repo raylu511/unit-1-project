@@ -11,18 +11,8 @@ The purpose of this project is to:
 This project will be completed in groups of 2-3. Groups will add an additional set of complexities to this task, as developing software collaboratively requires coordinating schedules for meetings, negotiating product vision, developing and being disciplined about your Git workflow, among many other things. This, in fact, is the point. These are all thing that you will encounter on the job so we may as well begin preparing now! 😊
 
 |Team Member #1 | Team Member #2 | Team Member #3|
-|---|---|---|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-
+    Ray Lu      | Damian Kohut   | Aldo Ortiz
+    
 ### Process
 1. Identify a cause or social issue in your communities that you want to support, learn more about, or raise awareness for. This could be national issue such as voter suppression, racial injustice, or education inequality. You could choose to highlight a local issue or one impacting your family's home country. What is important to note is that you do _not_ have to be an expert on this issue nor does every single member of the group have to have expertise on an issue. You should think of this project as a learning experience that will start this week but will carry on throughout the year in L&D as we explore different social issue.
    > _**Pro-Tip:** Reach out to the 2020 Fellows for some suggestions on ideas to consider, if you find yourself stuck. This group has a number of interests and experiences that have been cultivated over the year.
@@ -51,3 +41,7 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 * **Tuesday, October 19** - Design Mockup completed
 * **Thursday, October 21** - [_MVP_](https://www.freecodecamp.org/news/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38/) Due
 * **Monday, October 25 at 9AM** - Final Project and Project Presentations Due!
+
+
+
+raylu511.github.io/unit-1-project/index.html

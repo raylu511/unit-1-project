@@ -24,7 +24,7 @@ b:hover {
     z-index: 0!important;
 }
 .back {
-    margin-top: 15px;
+    padding-top:10%;
         background-color: #FFF8F5 ;
 }
 .slides{
