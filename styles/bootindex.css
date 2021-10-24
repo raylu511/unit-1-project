@@ -3,8 +3,13 @@
 }
 
 
+.sean {
+    padding-top: 5%;
+}
+
   
-  .navbar, .footer {
+.navbar, .footer {
+    width: 100%;
      background-color: #fff8f5;
 }
 .missioncarousel{
@@ -169,3 +174,6 @@ font-size: 1.2rem;
     padding-bottom:8%;
     }
 }
+
+
+
