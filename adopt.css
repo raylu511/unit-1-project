@@ -35,7 +35,10 @@ main{
 .donate .img-box{
     height:100px;
 }
-
+.footer .col-12 {
+        display:flex;
+        justify-content:center;
+    }
 @media only screen and (min-width:576px){
     .sites{
         padding-bottom: 10%;
@@ -55,6 +58,9 @@ main{
     }
     #cards{
         justify-content:space-between !important;
+    }
+    .footer .col-12 {
+        justify-content:end;
     }
 }
 @media only screen and (min-width:992px){
