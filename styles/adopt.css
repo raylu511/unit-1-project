@@ -39,6 +39,9 @@ main{
         display:flex;
         justify-content:center;
     }
+footer a{
+    text-decoration: none;
+}
 @media only screen and (min-width:576px){
     .sites{
         padding-bottom: 10%;

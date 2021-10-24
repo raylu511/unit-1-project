@@ -1,10 +1,10 @@
 *{border-box: border;
     font-family: "DM Sans", sans-serif;
 }
-  
-  .navbar,.footer{
+
+header{
      background-color: #fff8f5;
-}
+}  
 
 .missiontitle{
       padding-top: 100px;
