@@ -3,10 +3,9 @@
 }
 
 
-.sean {
+.sites {
     padding-top: 5%;
 }
-
   
 .navbar, .footer {
     width: 100%;
@@ -166,9 +165,7 @@ font-size: 1.2rem;
     .missiontitle{
         padding-top:15%;
     }
-    .sites .card-body *{
-        line-height: 2;
-    }
+   
 }
 
 @media only screen and (min-width:1400px){
