@@ -1,6 +1,12 @@
 # Unit 1 Project: HTML/CSS Foundations
 ## Raising Awareness on the Web
 
+## Check out the page!
+https://raylu511.github.io/unit-1-project/index.html
+
+## Check out our presentation!
+https://docs.google.com/presentation/d/1aMw3V1EQmpfPO1nOfxMyGc5h-E5bTKrbaVHN8m8MCk8/edit?usp=sharing
+
 ### Purpose
 The purpose of this project is to:
 1. Assess your mastery of the HTML and CSS foundations covered in Unit 1
@@ -43,4 +49,3 @@ This project will be completed in groups of 2-3. Groups will add an additional s
 * **Thursday, October 21** - [_MVP_](https://www.freecodecamp.org/news/what-the-hell-does-minimum-viable-product-actually-mean-anyway-7d8f6a110f38/) Due
 * **Monday, October 25 at 9AM** - Final Project and Project Presentations Due!
 
-https://raylu511.github.io/unit-1-project/index.html
